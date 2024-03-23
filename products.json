@@ -1,45 +1,45 @@
 
 [
     {   "id": 1,
-        "name": "Product 1",
+        "name": "Boxing-Gloves",
         "description": "Description of Product 1",
         "price": 19.99,
-        "image": "images/download.jpeg"
+        "image": "images/Adidas-Boxing-Gloves.jpg"
     },
     {
         "id": 2,
-        "name": "Product 2",
+        "name": "Agility-cones",
         "description": "Description of Product 2",
         "price": 29.99,
-        "image": "images/download.jpeg"
+        "image": "images/agility-cones-2.jpg"
     },
     {
         "id": 3,
-        "name": "Product 3",
+        "name": "BoltStrengthPowerlifting",
         "description": "Description of Product 3",
         "price": 39.99,
-        "image": "images/download.jpeg"
+        "image": "images/BoltStrengthPowerlifting.png"
     },
     {
         "id": 4,
-        "name": "Product 1",
-        "description": "Description of Product 1",
+        "name": "Digital-personal-scal",
+        "description": "Description of Product 4",
         "price": 19.99,
-        "image": "images/download.jpeg"
+        "image": "images/Digital-personal-scale.jpg"
     },
     {
         "id": 5,
-        "name": "Product 2",
-        "description": "Description of Product 2",
+        "name": "Heavy-duty-power-tower",
+        "description": "Description of Product 4",
         "price": 29.99,
-        "image": "images/download.jpeg"
+        "image": "images/heavy-duty-power-tower.jpg"
     },
     {
         "id": 6,
-        "name": "Product 3",
-        "description": "Description of Product 3",
+        "name": "Treadmill",
+        "description": "Description of Product 6",
         "price": 39.99,
-        "image": "images/download.jpeg"
+        "image": "images/treadmill.png"
     }
 ]
 
