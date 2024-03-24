@@ -95,34 +95,3 @@ window.onload = function() {
         filterProducts(event.target.value);
     });
 };
-
-/*
-document.addEventListener("DOMContentLoaded", function() {
-    // Fetching data from JSON file
-    fetch('products.json')
-        .then(response => response.json())
-        .then(data => {
-            const productDetailsElement = document.getElementById('productDetails');
-            let productHTML = '';
-            data.forEach((product) => {
-                productHTML += `
-                    <div class="product" onclick="showProductDetails(${product.id})">
-                        <div class="product-info">
-                            <h3>${product.name}</h3>
-                            <p>${product.description}</p>
-                            <p>€${product.price}</p>
-                        </div>
-                        <img src="${product.image}" alt="${product.name}">
-                    </div>
-                `;
-            });
-            productDetailsElement.innerHTML = productHTML;
-        })
-        .catch(error => console.error('Error fetching products:', error));
-
-    // Function to show product details
-    window.showProductDetails = function(productId) {
-        // Redirect to another page passing the product ID as a query parameter
-        window.location.href = `product.html?id=${productId}`;
-    };
-}); */

@@ -33,6 +33,7 @@
                         <h3>${product.name}</h3>
                         <p>${product.description}</p>
                         <p>€${product.price}</p>
+                        <p>Rating:${product.rating}</p>
                     </div>
                     <img src="${product.image}" alt="${product.name}">
                 </div>
