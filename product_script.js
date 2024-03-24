@@ -13,7 +13,7 @@ function fetchProductDetails(productId) {
         .then(response => response.json())
         .then(data => {
             console.log("Products from JSON:", data);
-            const product = data.find(product => product.id === productId);
+            const product = data.find(product => product.id == productId);
             if (product) {
                 console.log("OOOOOOOOOOOOOOOOOOOO")
                 displayProductDetails(product);
@@ -96,27 +96,7 @@ window.onload = function () {
         fetchProductDetails(productId);
     }
     else {
-        const productId = sessionStorage.getItem('productId');
-        fetchProductDetails(productId);
+        const SessionproductId = sessionStorage.getItem('productId');
+        fetchProductDetails(SessionproductId);
     }
 };
-
-// Fetch and display product details when the page loads
-// window.onload = function () {
-//     // Retrieve productId from sessionStorage
-//     const productId = sessionStorage.getItem('productId');
-
-//     // Get productId from URL if not found in sessionStorage
-//     if (!productId) {
-//         if (urlProductId) {
-//             sessionStorage.setItem('productId', urlProductId);
-//             productId = urlProductId;
-//         } else {
-//             console.error('Product ID not found in URL');
-//             return; // Exit the function if productId is not found in URL
-//         }
-//     }
-
-//     // Fetch and display product details using productId
-//     fetchProductDetails(productId);
-// };
