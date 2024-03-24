@@ -57,7 +57,6 @@ function displayFilteredProducts(products) {
             <div class="product" onclick="showProductDetails(${product.id})">
                 <div class="product-info">
                     <h3>${product.name}</h3>
-                    <p>${product.description}</p>
                     <p>€${product.price}</p>
                 </div>
                 <img src="${product.image}" alt="${product.name}">
