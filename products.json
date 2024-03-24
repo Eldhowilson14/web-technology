@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "name": "BoltStrengthPowerlifting",
+        "name": "Bolt-Strength-Power-lifting",
         "description": "Description of Product 3",
         "price": 39.99,
         "image": "images/BoltStrengthPowerlifting.png",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "name": "Digital-personal-scal",
+        "name": "Digital-personal-scale",
         "description": "Description of Product 4",
         "price": 19.99,
         "image": "images/Digital-personal-scale.jpg",
