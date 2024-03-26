@@ -1,51 +1,121 @@
-
 [
     {   "id": 1,
         "name": "Boxing-Gloves",
-        "description": "Description of Product 1",
         "price": 19.99,
         "image": "images/Adidas-Boxing-Gloves.jpg",
-        "rating": "⭐⭐⭐⭐⭐"
+        "rating": "⭐⭐⭐⭐⭐",
+        "material": "Leather",
+        "specialFeatures": ["Ergonomic design", "Padded wrist support"],
+        "description": "Professional boxing gloves for training and sparring."
     },
     {
         "id": 2,
         "name": "Agility-cones",
-        "description": "Description of Product 2",
         "price": 29.99,
         "image": "images/code.png",
-        "rating": "⭐⭐⭐"
+        "rating": "⭐⭐⭐",        
+        "material": "Plastic",
+        "specialFeatures": ["High visibility", "Durable and lightweight"],
+        "description": "Set of 10 agility cones for speed and agility training."
     },
     {
         "id": 3,
         "name": "Bolt-Strength-Power-lifting",
-        "description": "Description of Product 3",
         "price": 39.99,
         "image": "images/BoltStrengthPowerlifting.png",
-        "rating": "⭐⭐⭐⭐"
+        "rating": "⭐⭐⭐⭐",
+        "material": "Cast Iron",
+        "specialFeatures": ["Durable construction", "Versatile for various exercises"],
+        "description": "Complete set for powerlifting including barbell, weights, and collars."
     },
     {
         "id": 4,
         "name": "Digital-personal-scale",
-        "description": "Description of Product 4",
         "price": 19.99,
         "image": "images/Digital-personal-scale.jpg",
-        "rating": "⭐⭐"
+        "rating": "⭐⭐",
+        "material": "Tempered Glass",
+        "specialFeatures": ["High precision sensors", "LCD display", "Auto on/off"],
+        "description": "Digital scale for accurate and easy weight measurement."       
     },
     {
         "id": 5,
         "name": "Heavy-duty-power-tower",
-        "description": "Description of Product 4",
         "price": 29.99,
         "image": "images/heavy-duty-power-tower.jpg",
-        "rating": "⭐⭐⭐"
+        "rating": "⭐⭐⭐",
+        "material": "Steel",
+        "specialFeatures": ["Multiple workout stations", "Sturdy construction"],
+        "description": "Versatile power tower for various bodyweight exercises."
     },
     {
         "id": 6,
         "name": "Treadmill",
-        "description": "Description of Product 6",
         "price": 39.99,
         "image": "images/treadmill.png",
-        "rating": "⭐⭐⭐⭐"
-    }
+        "rating": "⭐⭐⭐⭐",
+        "material": "Steel",
+        "specialFeatures": ["Variable speed settings", "Incline options", "Heart rate monitor"],
+        "description": "High-quality treadmill for cardio workouts."
+    },
+    {
+        "id": 7,
+        "name": "Adjustable Weight Bench",
+        "price": 129.99,
+        "image": "images/adjustable-weight-bench.jpg",
+        "rating": "⭐⭐⭐⭐",
+        "material": "Steel",
+        "specialFeatures": ["Adjustable incline", "Foldable design"],
+        "description": "Versatile weight bench for various strength training exercises."
+    },
+    {
+        "id": 8,
+        "name": "Elliptical Trainer",
+        "price": 299.99,
+        "image": "images/elliptical-trainer.jpg",
+        "rating": "⭐⭐⭐⭐",
+        "material": "Aluminum",
+        "specialFeatures": ["LCD display", "Heart rate monitor"],
+        "description": "Elliptical trainer for low-impact cardio workouts at home."
+    },
+    {
+        "id": 9,
+        "name": "Spin Bike",
+        "price": 299.99,
+        "image": "images/spin-bike.jpg",
+        "rating": "⭐⭐⭐⭐",
+        "material": "Steel",
+        "specialFeatures": ["Adjustable seat and handlebars", "LCD monitor for tracking stats"],
+        "description": "Indoor spin bike for high-intensity cardio workouts."
+    },
+    {
+        "id": 10,
+        "name": "Pull-Up Bar",
+        "price": 39.99,
+        "image": "images/pull-up-bar.jpg",
+        "rating": "⭐⭐⭐⭐",
+        "material": "Steel",
+        "specialFeatures": ["Adjustable width", "Easy installation"],
+        "description": "Sturdy pull-up bar for upper body strength training exercises."
+    },
+    {
+        "id": 11,
+        "name": "Foam Roller",
+        "price": 14.99,
+        "image": "images/foam-roller.jpg",
+        "rating": "⭐⭐⭐⭐⭐",
+        "material": "EVA foam",
+        "specialFeatures": ["Textured surface", "Helps release muscle tension"],
+        "description": "High-density foam roller for self-myofascial release and muscle recovery."
+    },
+    {
+        "id": 12,
+        "name": "Resistance Bands Set",
+        "price": 24.99,
+        "image": "images/resistance-bands-set.jpg",
+        "rating": "⭐⭐⭐⭐",
+        "material": "Latex",
+        "specialFeatures": ["Multiple resistance levels", "Portable and lightweight"],
+        "description": "Set of resistance bands for strength training, stretching, and rehabilitation exercises."
+    }    
 ]
-

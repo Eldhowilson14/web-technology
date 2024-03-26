@@ -27,19 +27,27 @@ function fetchProductDetails(productId) {
 // Function to display product details on the page
 function displayProductDetails(product) {
     const productDetailsElement = document.getElementById('productDetails');
+    const productDescriptionElement = document.getElementById('productDescription');
     const productHTML = `
         <div class="product">
             <div class="product-info">
                 <h3>${product.name}</h3>
-                <p>${product.description}</p>
                 <p>€${product.price}</p>
                         <p>Rating:${product.rating}</p>
-                <button onclick="openReservationModal()">Reserve</button>
             </div>
             <img src="${product.image}" alt="${product.name}">
         </div>
     `;
+    const productDescHTML = `
+        <div class="product-desc">
+                <p>${product.description}</p>
+                <p>Material: ${product.material}</p>
+                <p>Special Features: ${product.specialFeatures.join(', ')}</p>
+                <button onclick="openReservationModal()">Reserve</button>
+            </div>
+    `;
     productDetailsElement.innerHTML = productHTML;
+    productDescriptionElement.innerHTML = productDescHTML;
 }
 
 // Function to open the reservation modal

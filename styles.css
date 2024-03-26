@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
 }
 
 header, footer {
@@ -54,6 +55,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    margin-top: auto;
 }
 
 #searchInput {
@@ -108,4 +110,18 @@ footer {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.product-details{
+    max-width: 50%;
+    float:left;
+}
+
+.product-details .product{
+    max-width: 40%;
+    width: 40% !important;
+}
+
+.product_detail_footer{
+    margin-top: 30%;
 }
